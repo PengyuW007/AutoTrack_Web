@@ -92,9 +92,11 @@ nav a:hover {
 }
 
 .left-column h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #64748b;
     margin-bottom: 1.5rem;
+    justify-content: space-around;
+    line-height: 2;
 }
 
 .buttons {
