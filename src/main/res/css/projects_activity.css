@@ -26,18 +26,30 @@ header {
 }
 
 .logo {
-    font-size: 20px;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 700;
     color: #0f172a;
 }
 
+.logo-box {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
 .nav-wrap {
-    width: min(1200px, 94%);
+    width: min(1200px, 92%);
     margin: 0 auto;
+    padding: 16px 0;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 0;
 }
 
 nav a {
